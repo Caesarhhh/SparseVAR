@@ -35,9 +35,12 @@
 - 🧩 **Compatible with HART, Infinity, and other next-scale models**  
 - 🚀 **Achieves up to 2× speedup** in inference
 
+
+
+<!--
 ---
 
-<!--## 📦 Code Release Plan
+## 📦 Code Release Plan
 
 Planned release contents:
 
@@ -46,7 +49,7 @@ Planned release contents:
 - [ ] Scripts & documentation
 - [ ] Evaluation and visualization tools -->
 
-## 📄 Citation
+<!--## 📄 Citation
 
 ```bibtex
 @inproceedings{chen2025frequencyaware,
@@ -54,4 +57,4 @@ Planned release contents:
   author    = {Zhuokun Chen and Jugang Fan and Zhuowei Yu and Bohan Zhuang and Mingkui Tan},
   booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   year      = {2025}
-}
+}-->
