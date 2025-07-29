@@ -11,7 +11,7 @@
 
 > Visual autoregressive modeling, based on the next-scale prediction paradigm, exhibits notable advantages in image quality and model scalability over traditional autoregressive and diffusion models. It generates images by progressively refining resolution across multiple stages. However, the computational overhead in high-resolution stages remains a critical challenge due to the substantial number of tokens involved.
 >
-> In this paper, we introduce **SparseVAR**, a plug-and-play acceleration framework for next-scale prediction that dynamically excludes low-frequency tokens during inference without requiring additional training. [...]
+> In this paper, we introduce **SparseVAR**, a plug-and-play acceleration framework for next-scale prediction that dynamically excludes low-frequency tokens during inference without requiring additional training.
 >
 > SparseVAR achieves **up to a 2× speedup** with **minimal quality degradation** in **Infinity-2B**.
 
