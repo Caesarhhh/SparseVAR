@@ -5,23 +5,6 @@
 > **"Frequency-Aware Autoregressive Modeling for Efficient High-Resolution Image Synthesis"**  
 > 🔥 Up to **2× speedup** for high-res image synthesis with minimal quality drop.
 
-## 🧠 Overview
-
-Visual autoregressive models with next-scale prediction have demonstrated state-of-the-art quality and scalability in high-resolution image synthesis. Yet, inference at high resolutions remains computationally expensive.
-
-We introduce **Frequency-Aware Autoregressive Modeling**, a **plug-and-play acceleration framework** that excludes **low-frequency tokens during inference** — with **no extra training required**.
-
----
-
-## 🖼️ Method Overview
-
-
-📄 **Method Diagram:**  
-![Method Overview](assets/method_exit.png)
-
-<!-- For inline image display after converting PDF to PNG -->
-<!-- ![Method Overview](assets/method.png) -->
-
 ---
 
 ## 🔍 Abstract
@@ -31,6 +14,17 @@ We introduce **Frequency-Aware Autoregressive Modeling**, a **plug-and-play acce
 > In this paper, we introduce **SparseVAR**, a plug-and-play acceleration framework for next-scale prediction that dynamically excludes low-frequency tokens during inference without requiring additional training. [...]
 >
 > SparseVAR achieves **up to a 2× speedup** with **minimal quality degradation** in **Infinity-2B**.
+
+---
+
+## 🖼️ Method
+
+
+📄 **Method Diagram:**  
+![Method Overview](assets/method_exit.png)
+
+<!-- For inline image display after converting PDF to PNG -->
+<!-- ![Method Overview](assets/method.png) -->
 
 ---
 
