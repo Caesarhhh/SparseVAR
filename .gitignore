@@ -1,0 +1,11 @@
+infinity/cache
+infinity/outputs
+infinity/src
+hart/outputs
+.cache
+*.pth
+*.txt
+*.csv
+*.png
+*.jpg
+!assets/*.png
