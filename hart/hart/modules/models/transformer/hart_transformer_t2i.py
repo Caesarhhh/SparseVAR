@@ -232,21 +232,8 @@ class HARTForT2I(PreTrainedModel):
         # 1. input (word) embedding
         quant: HARTHybridQuantizer = vae_local.quantize
         self.vae_proxy = nn.Sequential(vae_local)
-        additional_codebooks=[]
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-        additional_codebooks = []
-
-        for i in range(len(self.patch_nums)):
-            # 创建嵌入层，初始时不使用 .cuda()
-            embed = nn.Embedding(num_embeddings=4096, embedding_dim=32)
-
-            # 初始化嵌入层的权重
-            torch.nn.init.zeros_(embed.weight.data)
-
-            # 将嵌入层添加到列表中
-            additional_codebooks.append(embed)
-        self.additional_codebooks=nn.ModuleList(additional_codebooks)
         self.vae_quant_proxy= nn.Sequential(quant)
         self.word_embed = nn.Linear(self.Cvae, self.C)
 
